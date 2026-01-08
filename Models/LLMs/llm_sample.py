@@ -7,8 +7,8 @@ load_dotenv()
 
 # llm = OpenAI(model='gpt-3.5-turbo-instruct')
 
-llm = HuggingFaceHub(repo_id="google/flan-t5-large")
+llm = ChatHuggingFace(repo_id="google/flan-t5-large")
 
-result = llm.invoke("What is the capital of India")
+result = llm.invoke("What is AI?")
 
 print(result)

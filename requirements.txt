@@ -28,6 +28,11 @@ scikit-learn
 #for UI
 streamlit
 
+#PAID CHAT MODELS
+langchain-azure
+langchainopenai
+
+
 # open Source Chatbot
 langchain_community
 langchain-ollama
